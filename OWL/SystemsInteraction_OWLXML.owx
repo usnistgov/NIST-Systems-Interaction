@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AutomationLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustomerRequirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmptyList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalInfluence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeatureMetrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeographicalArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalInfluence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalAndRegulatoryConstraints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OES_Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationDesignDomainType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalConstraints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalDesignDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoadTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SafetyConsiderations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scenario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpeedRange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrafficConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageSpecification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_automation_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_contents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_feature_metrics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_list_property"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_next"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_odd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_odd_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_system_technology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_automation_level_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_automation_level_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_automation_level_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_feature_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_feature_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_feature_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_odd_type_description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AI_system_technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adaptive_cruise_control"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automation_level_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automation_level_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automation_level_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automation_level_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automation_level_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automation_level_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#collision_avoidance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#communication_system_technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cybersecurity_system_technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ego_vehicle_localization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flash_over_the_air"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#object_localization_and_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#odd_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#odd_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perception_system_technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#road_type_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#road_type_1"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Feature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_feature_metrics"/>
+            <Class IRI="#Metrics"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Feature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_odd"/>
+            <Class IRI="#OperationalDesignDomain"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Feature"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has_system_technology"/>
+            <Class IRI="#SystemTechnology"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AutomationLevel"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerRequirements"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalConditions"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalInfluence"/>
+        <Class IRI="#Influence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeatureMetrics"/>
+        <Class IRI="#Metrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeographicalArea"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalInfluence"/>
+        <Class IRI="#Influence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAndRegulatoryConstraints"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metrics"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OES_Location"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationDesignDomainType"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalConstraints"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalDesignDomain"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadTypes"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SafetyConsiderations"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scenario"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeedRange"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemTechnology"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrafficConditions"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageSpecification"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SystemTechnology"/>
+        <NamedIndividual IRI="#AI_system_technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#adaptive_cruise_control"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutomationLevel"/>
+        <NamedIndividual IRI="#automation_level_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutomationLevel"/>
+        <NamedIndividual IRI="#automation_level_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutomationLevel"/>
+        <NamedIndividual IRI="#automation_level_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutomationLevel"/>
+        <NamedIndividual IRI="#automation_level_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutomationLevel"/>
+        <NamedIndividual IRI="#automation_level_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutomationLevel"/>
+        <NamedIndividual IRI="#automation_level_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#collision_avoidance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SystemTechnology"/>
+        <NamedIndividual IRI="#communication_system_technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SystemTechnology"/>
+        <NamedIndividual IRI="#cybersecurity_system_technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#ego_vehicle_localization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#flash_over_the_air"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#object_localization_and_classification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OperationalDesignDomain"/>
+        <NamedIndividual IRI="#odd_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OperationalDesignDomain"/>
+        <NamedIndividual IRI="#odd_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SystemTechnology"/>
+        <NamedIndividual IRI="#perception_system_technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoadTypes"/>
+        <NamedIndividual IRI="#road_type_0"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AI_system_technology"/>
+        <NamedIndividual IRI="#communication_system_technology"/>
+        <NamedIndividual IRI="#cybersecurity_system_technology"/>
+        <NamedIndividual IRI="#perception_system_technology"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#automation_level_0"/>
+        <NamedIndividual IRI="#automation_level_1"/>
+        <NamedIndividual IRI="#automation_level_2"/>
+        <NamedIndividual IRI="#automation_level_3"/>
+        <NamedIndividual IRI="#automation_level_4"/>
+        <NamedIndividual IRI="#automation_level_5"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_odd_type"/>
+        <NamedIndividual IRI="#odd_0"/>
+        <NamedIndividual IRI="#road_type_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_odd_type"/>
+        <NamedIndividual IRI="#odd_1"/>
+        <NamedIndividual IRI="#road_type_1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_description"/>
+        <NamedIndividual IRI="#adaptive_cruise_control"/>
+        <Literal>Maintains distance and speed from vehicle in front</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_id"/>
+        <NamedIndividual IRI="#adaptive_cruise_control"/>
+        <Literal>Feature#2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_name"/>
+        <NamedIndividual IRI="#adaptive_cruise_control"/>
+        <Literal>Adaptive Cruise Control</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_automation_level_description"/>
+        <NamedIndividual IRI="#automation_level_4"/>
+        <Literal>Supervision not needed though reccomended; Features drive vehicle in limited conditions; Are not driving</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_automation_level_id"/>
+        <NamedIndividual IRI="#automation_level_4"/>
+        <Literal>Level4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_automation_level_name"/>
+        <NamedIndividual IRI="#automation_level_4"/>
+        <Literal>Level 4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_description"/>
+        <NamedIndividual IRI="#collision_avoidance"/>
+        <Literal>Avoids obstacle either by AEB or swerving around the obstacle using Radar &amp; Lidar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_id"/>
+        <NamedIndividual IRI="#collision_avoidance"/>
+        <Literal>Feature#5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_name"/>
+        <NamedIndividual IRI="#collision_avoidance"/>
+        <Literal>Collision Avoidance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_description"/>
+        <NamedIndividual IRI="#ego_vehicle_localization"/>
+        <Literal>Gives precise location of ego vehicle to navigate around env in real-time</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_id"/>
+        <NamedIndividual IRI="#ego_vehicle_localization"/>
+        <Literal>Feature#3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_name"/>
+        <NamedIndividual IRI="#ego_vehicle_localization"/>
+        <Literal>Localization for Ego Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_description"/>
+        <NamedIndividual IRI="#flash_over_the_air"/>
+        <Literal>Updates software remotely</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_id"/>
+        <NamedIndividual IRI="#flash_over_the_air"/>
+        <Literal>Feature#1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_name"/>
+        <NamedIndividual IRI="#flash_over_the_air"/>
+        <Literal>Flash Over the Air</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_description"/>
+        <NamedIndividual IRI="#object_localization_and_classification"/>
+        <Literal>Classify and locate objects in scene using bounding box e.g. pedestrian, signs, vehicle etc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_id"/>
+        <NamedIndividual IRI="#object_localization_and_classification"/>
+        <Literal>Feature#4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_feature_name"/>
+        <NamedIndividual IRI="#object_localization_and_classification"/>
+        <Literal>Object Localization and Detection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_odd_type_description"/>
+        <NamedIndividual IRI="#road_type_0"/>
+        <Literal>Signaled 4-way intersection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_odd_type_description"/>
+        <NamedIndividual IRI="#road_type_1"/>
+        <Literal>Fully access-controlled highway</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_contents"/>
+        <ObjectProperty IRI="#has_list_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_next"/>
+        <ObjectProperty IRI="#is_followed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_odd"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by"/>
+        <ObjectProperty IRI="#has_list_property"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_contents"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_next"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_followed_by"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_list_property"/>
+        <Class IRI="#OWLList"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_odd"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_odd_type"/>
+        <Class IRI="#OperationalDesignDomain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_system_technology"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_odd"/>
+        <Class IRI="#OperationalDesignDomain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_odd_type"/>
+        <Class IRI="#OperationDesignDomainType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_system_technology"/>
+        <Class IRI="#SystemTechnology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by"/>
+        <Class IRI="#OWLList"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_automation_level_description"/>
+        <Class IRI="#AutomationLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_automation_level_id"/>
+        <Class IRI="#AutomationLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_automation_level_name"/>
+        <Class IRI="#AutomationLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_feature_description"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_feature_id"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_feature_name"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_automation_level_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_automation_level_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_automation_level_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_feature_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_feature_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_feature_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_odd_type_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CustomerRequirements</IRI>
+        <Literal>Depending on the intended use case, there may be specific requirements from customers or stakeholders that define the ODD.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EnvironmentalConditions</IRI>
+        <Literal>Includes factors such as weather conditions (e.g., sunny, rainy, snowy), time of day (daytime, nighttime), and visibility conditions (e.g., foggy, clear).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GeographicalArea</IRI>
+        <Literal>The autonomous vehicle might be designed to operate only within a specific geographical area, such as a city, a highway, or a particular region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LegalAndRegulatoryConstraints</IRI>
+        <Literal>Autonomous vehicles may have limitations based on local laws, regulations, and permissions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OperationalConstraints</IRI>
+        <Literal>Certain operational constraints might be included, such as avoiding construction zones, unpaved roads, or areas with poor GPS signal reception.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoadTypes</IRI>
+        <Literal>The vehicle may be designed to operate on certain types of roads, such as highways, urban streets, or rural roads.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SafetyConsiderations</IRI>
+        <Literal>The ODD may include parameters related to safety, such as avoiding high-risk areas, minimizing collision risk, and ensuring safe stopping distances.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpeedRange</IRI>
+        <Literal>The vehicle might be designed for specific speed ranges, such as low-speed urban driving or high-speed highway driving.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TrafficConditions</IRI>
+        <Literal>This involves the level of traffic congestion, density, and complexity of traffic patterns the vehicle is designed to handle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#flash_over_the_air</IRI>
+        <Literal>Flash Over The Air</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

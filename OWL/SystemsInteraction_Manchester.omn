@@ -1,0 +1,114 @@
+Prefix: : <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2>
+
+
+AnnotationProperty: rdfs:comment
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_automation_level>
+
+    
+ObjectProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_contents>
+
+    SubPropertyOf: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_list_property>
+    
+    Characteristics: 
+        Functional
+    
+    
+ObjectProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_list_property>
+
+    Domain: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#OWLList>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_next>
+
+    SubPropertyOf: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#is_followed_by>
+    
+    Characteristics: 
+        Functional
+    
+    
+ObjectProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#is_followed_by>
+
+    SubPropertyOf: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_list_property>
+    
+    Characteristics: 
+        Transitive
+    
+    Range: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#OWLList>
+    
+    
+DataProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_feature_description>
+
+    Domain: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#Feature>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_feature_id>
+
+    Domain: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#Feature>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_feature_name>
+
+    Domain: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#Feature>
+    
+    Range: 
+        xsd:string
+    
+    
+Class: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#AutomationLevel>
+
+    
+Class: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#EmptyList>
+
+    
+Class: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#Feature>
+
+    
+Class: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#OWLList>
+
+    
+Individual: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#FOTA>
+
+    Annotations: 
+        rdfs:comment "Flash Over The Air"
+    
+    Types: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#Feature>
+    
+    Facts:  
+     <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#has_feature_description>  "Updates software remotely"
+    
+    
+Individual: <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#Level4>
+
+    Types: 
+        <http://www.semanticweb.org/zeid/ontologies/2024/2/untitled-ontology-2#AutomationLevel>
+    
+    
