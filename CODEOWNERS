@@ -7,3 +7,8 @@
 
 # FILES  OWNERS
 *        @usnistgov/opensource-team
+
+# Specific paths or files
+/OWL/  @zeid.kootbally@nist.gov
+/GraphDatabase/   @zeid.kootbally@nist.gov @mahima.arora@nist.gov
+
