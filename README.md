@@ -34,6 +34,6 @@ This project is licensed under the terms described in the LICENSE.md file.
 
 # Credits
 
-Edward Griffor (edward.griffor@nist.gov)
-Mahima Arora (mahima.arora@nist.gov)
-Zeid Kootbally (zeid.kootbally@nist.gov)
+- Edward Griffor (edward.griffor@nist.gov)
+- Mahima Arora (mahima.arora@nist.gov)
+- Zeid Kootbally (zeid.kootbally@nist.gov)
