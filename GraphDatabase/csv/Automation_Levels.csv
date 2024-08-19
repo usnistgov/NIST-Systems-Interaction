@@ -1,0 +1,7 @@
+levelID,Name,Description
+L0,Level 0,No Driving Automation
+L1,Level 1,Driver Assistance
+L2,Level 2,Partial Driving Automation
+L3,Level 3,Conditional Autonomy
+L4,Level 4,High Driving Automation
+L5,Level 5,Full Automation

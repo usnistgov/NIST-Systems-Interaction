@@ -1,0 +1,4 @@
+metricID,Name,Description,Specification
+M1,OCA metrics,Behaviors of (1) responding to lane obstructions and obstacles and (2) responding to external communication signals are met,TBD (metrics related to stopping distance along with behavior specification)
+M2,OCA with AI metrics,Behaviors of (1) responding to lane obstructions and obstacles and (2) responding to external communication signals are met,TBD (metrics related to stopping distance along with behavior specification)
+M3,TSR metrics,"Behaviors of (1) responding to relevant traffic control devices, (2) responding to vulnerable road users(VRUs), and (3) maintaining a lane are met",TBD (metrics related to stopping distance along with behavior specification)

@@ -1,0 +1,24 @@
+influenceID,Name,Description
+I1,Signal Interference,"Sensors singals can be disrupted by weather, electronic devices or infrastructure"
+I2,Hardware Malfunction,Faulty sensors or degraded wiring can cause loss of signal
+I3,Software Bugs,Update to vehicle's operating system can cause communication to lag between sensors and central unit
+I4,Bug in Serialization,It leads to malformed data being sent causing loss of packets 
+I5,Latency in Communication,Signal might be lagging due to multiple factors
+I6,Data Bandwidth Limitation,Real-time processing from multiple high-defination cameras can cause latency in transmission
+I7,Connectivity Issues/Loss of Signal,Signal might be lost due to external factors
+I8,Channel Congestion,It leads limited bandwidth and causes loss of data
+I9,Loss of Packets/Data,"Some packets are dropped due to channel congestion, limited bandwidth or high traffic on bus "
+I10,High Classification Uncertainity,Uncertainity output by the classifier is high or confidence score is low
+I11,Misclassification,Misidentifying cruicial scene elements due to adverse weather conditions leading to incorrect decision making
+I12,Incorrect Detection Location,Bounding box around object is not at the accurate location
+I13,Delay in Detection,Latency in object detection
+I14,Inaccurate/Noisy in Sensor Data,Dirty sensors might cause misinterpretation the environment
+I15,Real-Time Processing Delay,Processing sensor data for long may lead to delayed reactions
+I16,Incorrect data formatting,It may lead to package verification failure
+I17,Package verification failure,"Verification might me fail due to connection issues, development error or even manufactuing defect"
+I18,Blocking wanted messages,Messages could be blocked due to bandwidth limitation or high data traffic
+I19,Letting Through Unwanted Messages,Can lead to unsafe situations
+I20,Encryption Keys Not Changing,Can lead to unsafe situations
+I21,Misformat of keys,Encryption keys can be misformatted leading to
+I22,Incorrect Decision Making Algorithm,Decision making algorithm can be impacted by external factors leading to unsafe situations
+I23,Lack of Fallback Mechanisms,No backup in case of system failure can lead to potential collisions

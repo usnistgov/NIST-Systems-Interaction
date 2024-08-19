@@ -1,0 +1,34 @@
+name,description,query,id,parentId,isFolder
+Custom_Queries,,,0,,TRUE
+check relationship exists,,"MATCH ()-[r:PROVIDES_ODD_CONTEXT]->()
+RETURN r;",1,0,FALSE
+Experiments testing behaviors for given Feature,,"/* Output experiements testing behaviors performed by Feature Obstacle Collision Avoidance */
+
+MATCH (e:Experiments)-[r1:TESTS_BEHAVIOR]->(b:Behaviors)-[r2:PERFORMED_BY]->(f:Features {Name: ""Obstacle Collision Avoidance""})
+RETURN e, r1, b, r2, f
+
+/* Output experiments testing Feature - Obstacle Collision Avoidance */
+
+// MATCH (e:Experiments)-[r1:TESTS_BEHAVIOR]->(b:Behaviors)-[r2:PERFORMED_BY]->(f:Features)
+// WHERE f.Name = ""Obstacle Collision Avoidance""
+// RETURN e, r1, b, r2, f",2,0,FALSE
+Delete node and relationships,,"MATCH (n: `External Influences`)
+DETACH DELETE n",3,0,FALSE
+Show relevant nodes for Test Plan,,"/* Output experiements testing behaviors performed by Feature Obstacle Collision Avoidance */
+
+MATCH (oes: OES)-[r0: PROVIDES_OES_CONTEXT]->(e:Experiments)-[r1:TESTS_BEHAVIOR]->(b:Behaviors)-[r2:PERFORMED_BY]->(f:Features {Name: ""Obstacle Collision Avoidance""})<-[r4: MEASURES]-(fm: FeatureMetrics)
+MATCH (odd: ODD)<-[r5: HAS_ODD]->(f:Features)-[r6:HAS_AUTO_LEVEL]->(al:AutomationLevel)
+MATCH (f: Features)<-[r7: HAS_SYS_TECH]->(st:SystemTechnologies)-[r8:INFLUENCED_BY]->(ii:InternalInfluences)-[r9:CAUSED_BY]->(ei:ExternalInfluences)-[r10: INFLUENCES]->(e:Experiments)<-[r11: PROVIDES_ODD_CONTEXT]-(odd: ODD)
+WHERE f.Name = ""Obstacle Collision Avoidance""
+RETURN oes, r0, e, r1, b, r2, f, r4, fm, odd, r5, r6, al, r7,st, r8, ii, r9, ei, r10, r11
+
+/* Output experiements testing behaviors performed by Feature Obstacle Collision Avoidance */
+
+// MATCH (oes: OES)-[r0: PROVIDES_OES_CONTEXT]->(e:Experiments)-[r1:TESTS_BEHAVIOR]->(b:Behaviors)-[r2:PERFORMED_BY]->(f:Features)<-[r4: MEASURES]-(fm: FeatureMetrics)
+// WHERE f.Name = ""Obstacle Collision Avoidance""
+// RETURN oes, r0, e, r1, b, r2, f, r4, fm
+",4,0,FALSE
+Feature Automation level and ODD,,"MATCH (odd: ODD)<-[r0: HAS_ODD]->(f:Features)-[r1:HAS_AUTO_LEVEL]->(al:AutomationLevel)
+WHERE f.Name = ""Obstacle Collision Avoidance""
+RETURN odd, r0, f, r1, al
+",5,0,FALSE

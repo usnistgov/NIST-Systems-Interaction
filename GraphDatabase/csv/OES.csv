@@ -1,0 +1,37 @@
+oesID,Measures,Unit,Description
+OES1,Fog," visibility in meters, km","Dense [<50m];
+Thick [50m - 200m];
+Moderate [200m - 500m];
+Light [500m - 1km];
+Thin [1 - 2km];
+Haze [2km - 4km];
+Light haze[4km - 10km];
+Clear [10km - 20km];
+Very clear [20km - 50km];
+Exceptionally clear [>50km]
+Pure air [277km]"
+OES2,Rain,mm/hr; in/hr; mm/min; in/min,"Light [ <2.5mm/hr],[ <0.1""/hr];
+Moderate [2.6 to 7.5 mm/hr], [0.1 to 0.3”/hr]; 
+High  [>7.6 to 50 mm/h], [0.3 to 2”/hr];
+Violent [>50mm/hr], [>2""/hr]"
+OES3,Speed limit,"mph, kmph",60mph
+OES4,Lane Width,"feet, metres","10 - 12feet;
+3.7m
+"
+OES5,Time of Day,"Lux, Foot candles","Day(sun overhead) [32000 - 130000]lux;
+Full Daylight(not direct sun) [10000- 25000]lux;
+Dark Overcast Day [100]lux;
+Sunrise or Sunset on clear day [400]lux;
+Night(moonless, overcast night sky) [0.0001]lux;
+Night(moonless, clear night sky) [0.002]lux;
+Night(full moon, clear night) [0.27 - 1.0]lux;
+Total Starlight [10 - 40]lux;
+Street Lights [10-15]lux; 
+Headlights (regular and high-beam)[varies by model];
+"
+OES6,Dirt,percentage and position on lens,"[0, 30, 60, 100 ]% on right bottom corner of lens"
+OES7,Traffic Density,vehicles per mile,"Low;
+Moderate;
+High;
+
+"

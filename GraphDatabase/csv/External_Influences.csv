@@ -1,0 +1,18 @@
+extInfluenceID,Name,Description
+E1,Disruption/Detereoration of channel,"No line of sight due to tunnels, buildings, bad weather"
+E2,Weather,"Rain, Fog, Smoke conditions, Snow"
+E3,Experimental Setup/Sensor Position,Experiment design might lead to unwanted influences
+E4,Object Reflectivity,Glare causing camera issues
+E5,Laser Interference,Causing noise in LiDAR point cloud
+E6,Sensor Occlusion,"Dirt, sleet, dust, mud, leaf"
+E7,Object Occlusion,Signs and traffic signals occluded leading to degradation in S/P and AI
+E8,Obstacle Size,Different sizes might have different effects on detection algorithm
+E9,Electromangnetic Interference,"These can impact sensors,comms systems and control unit of vehicle"
+E10,Manufacturing Defect,Manufacturing defect that would be present in a given batch of product
+E11,Physical Wear and Tear,Deterioration of sensors overtime might lead to malfunction
+E12,Integration Issues,Integration bug that was not identified beforehand
+E13,Coding/Development Error,Programming bug that was not identified during development
+E14,High Data Traffic on Bus,Real-time processing of high-def cameras can cause latency and bandwidth limitation
+E15,Large Distance from Object,Larger distance from object leads to delay in detection and classification
+E16,High Vehicle Speed,Higher  vehicle speed gives less time to detect and classify objects hence may lead to inaccurate output 
+E17,Cyber Attacks,"Attacks such as spoofing, jamming, DoS attacks etc can lead to harming data integrity"

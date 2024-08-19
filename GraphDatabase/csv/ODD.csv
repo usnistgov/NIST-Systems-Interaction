@@ -1,0 +1,26 @@
+oddID,Name,Category,Description
+O1,Roadway Types,Physical Infrastructure,"Divided highway, undivided highway, arterial, urban, rural, parking, multi-lane, single lane, high-occupancy vehicle (HOV) lane, on/off ramps, emergency evacuation routes, one-way, turn-only lanes, private roads, reversible lanes, intersections (signaled, Uturns, 4-way/2-way stop, roundabout, merge lanes, turn-only lanes, crosswalk, toll plaza, railroad crossing)"
+O2,Roadway Surfaces,Physical Infrastructure,"Asphalt, concrete, mixed, grating, brick, dirt, gravel, scraped road, partially occluded, speed bumps, potholes, grass"
+O3,Roadway Edges,Physical Infrastructure,"Line markers, temporary line markers, shoulder (paved or gravel), shoulder (grass), concrete barriers, grating, rails, curb, cones"
+O4,Roadway Geometry,Physical Infrastructure,"Straightaways, curves, hills, lateral crests, corners (regular, blind corners), negative obstacles, lane width"
+O5,Speed Limit,Operational Constraints,"Minimum and maximum speed limit (absolute, relative to speed limit, relative to surrounding traffic) "
+O6,Traffic Conditions,Operational Constraints,"Minimal traffic, normal traffic, bumper-to-bumper/rush-hour traffic, altered (accident, emergency vehicle, construction, closed road, special event)"
+O7,Signage,Objects,"Signs (e.g., stop, yield, pedestrian, railroad, school zone, etc.), traffic signals (flashing, school zone, fire department zone, etc.), crosswalks, railroad crossing, stopped buses, construction signage, first responder signals, distress signals, roadway user signals, hand signals"
+O8,Roadway Users,Objects,"Vehicle types (cars, light trucks, large trucks, buses, motorcycles, wide-load, emergency vehicles, construction equipment, horse-drawn carriages/buggies), stopped vehicles, moving vehicles (manual, autonomous), pedestrians, cyclists"
+O9,Non-Roadway User Obstacles/Objects,Objects,"Animals (e.g., dogs, deer, etc.), shopping carts, debris (e.g., pieces of tire, trash, ladders), construction equipment, pedestrians, cyclists"
+O10,Vehicles,Connectivity," V2V communications (e.g., DSRC, Wi-Fi), emergency vehicles"
+O11,Traffic Density Info,Connectivity,"Crowdsourced data (e.g., Waze) and V2I"
+O12,Remote Fleet Management System,Connectivity,A vehicle may be supported by an operations center that can perform remote operation
+O13,Infrastructure Sensors and Comms,Connectivity,"Work zone alerts, vulnerable road user, routing and incident management, GPS, 3-D high-definition maps, pothole locations, weather data, data on the cloud, etc."
+O23,Weather,Environmental Conditions,"Wind, rain, snow, sleet, temperature 
+(On freeways, light rain or snow can reduce average speed by 3 to 13 percent. Heavy rain can decrease average speed by 3 to 16 percent. In heavy snow, average freeway speeds can decline by 5 to 40 percent. Free-flow speed can be reduced by 2 to 13 percent in light rain and by 6 to 17 percent in heavy rain. Snow can cause free-flow speed to decrease by 5 to 64 percent. Speed variance can fall by 25 percent during rain)"
+O15,Weather Induced Roadway Conditions,Environmental Conditions,"Standing water, flooded roadways, icy roads, snow on road 
+(Capacity reductions can be caused by lane submersion due to flooding and by lane obstruction due to snow accumulation and wind-blown debris. Road closures and access restrictions due to hazardous conditions (e.g., large trucks in high winds) also decrease roadway capacity)"
+O16,Particulate Matter,Environmental Conditions,"Fog, smoke, smog, dust/dirt, mud 
+(Low visibility can cause speed reductions of 10 to 12 percent. Visibility distance is reduced by fog and heavy precipitation, as well as wind-blown snow, dust, and smoke.)"
+O17,Illumination,Environmental Conditions,"Day (sun: overhead, back-lighting, and front-lighting), dawn, dusk, night, street lights, headlights (regular and high-beam), oncoming vehicle lights (overhead lighting, backlighting, and front-lighting)"
+O18,Geo-Fencing,Zones,"Central business districts, school campuses, and retirement communities (for example, CityMobil2 is fixed route and includes < 20 mph (CityMobil2, 2013) routes both onroad and off-road on pedestrian walkways)"
+O19,Traffic Management Zones,Zones,"May include temporary lane closures, dynamic traffic signs, variable speed limits, temporary or non-existent lane markings, human-directed traffic, loading/unloading zones"
+O20,School/Construction Zones,Zones,"Dynamic speed limit, erratic pedestrian and vehicular behaviors"
+O21,Regions/States,Zones,"Any legal, regulatory, enforcement, tort, or other considerations (e.g., following distance, licensing, etc.)"
+O22,Interference Zones,Zones,"Tunnels, parking garages, dense foliage, limited GPS due to tall buildings, atmospheric conditions"

@@ -1,0 +1,17 @@
+featureID,Name,Feature Description/ Functional Objective,Systems/Sub-Function
+F1,Obstacle Collision Avoidance,"Ego vehicle avoids obstacle collision by determining distance between vehicle and obstacle using LiDAR. It allows vehicle to brake at a sufficient stopping distance if relative distance is low. Additionally, it uses V2X broadcasting to confirm presence of the obstacle.","Object Detection(LiDAR, no AI);
+V2X;
+Adaptive Braking Force(Passenger comfort);
+Lane Detection;
+Decision Making;
+Vehicle Controller (Braking)"
+F2,Collision Avoidance with AI,"Ego vehicle avoids obstacle collision by determining distance between vehicle and obstacle using depth camera. It allows vehicle to brake at a sufficient stopping distance if relative distance is low. Additionally, it uses AI classification to identify road users and traffic control devices in scene.","Object Detection(Cameras, AI);
+V2X;
+Adaptive Braking Force(Passenger comfort);
+Lane Detection;
+Decision Making;
+Vehicle Controller (Braking)"
+F3,Traffic Sign Recognition,Feature classifys objects in scene and outputs uncertainty for each class. It informs object location using bounding boxes(Localisation) as well as determine the type of object (Classification). This Feature allows environment awareness around the vehicle which is used as input for decision making.,"Object Detection (bounding box + location);		
+Object Classification (class + uncertainty);		
+Decision Making;
+Vehicle Controller (Braking)									"

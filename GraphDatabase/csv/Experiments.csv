@@ -1,0 +1,25 @@
+experimentID,Name,Description,Scenario,OesMeasurement
+EX1,Traffic Cone Shape,Experiment changes the shape of the cone area to analyse its effects on classification and detection. ,"Ego drives down a lane;
+Comes across a stationary obstacle traffic cone;
+Ego vehicle brakes at a safe distance","Rain (No rain - heavy rain) [>7.6 to 50 mm/h];
+Day [Day: 10000 - 25000 lux];
+Lane Width [3.7m];
+Speed Limit [15 mph]
+
+
+"
+EX2,Sensor Occlusion with Dirt,Experiment changes the dirt percentage on camera using dirt slide to analyse its effects on object detection.,"Ego drives down a lane;
+Comes across a stationary traffic cone;
+Ego vehicle brakes at a safe distance","Dirt [0, 33, 66]%;
+Rain (No rain - heavy rain) [>7.6 to 50 mm/h];
+Day [Day: 10000 - 25000 lux];
+lane_width [3.7m];
+speed limit [15 mph]"
+EX3,Stop Sign Occlusion ,Change percentages of occlusion ,"Ego is driving on a multi-lane urban road;
+Sees stop sign which is occluded partially;
+Vehicle comes to a stop at safe distance
+","Rain (No rain - heavy rain) [>7.6 to 50 mm/h];
+Fog (Haze - Thick)[2km - 200m] visibility; 
+Day [Day: 10000 - 25000 lux];
+lane_width [3.7m];
+speed limit [40 mph]"
